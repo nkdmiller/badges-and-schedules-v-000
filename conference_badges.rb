@@ -16,3 +16,4 @@ def assign_rooms(array)
     room +=
   end
   return batch
+end
