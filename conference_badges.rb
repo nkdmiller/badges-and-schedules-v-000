@@ -1,5 +1,3 @@
-def badge_maker(array)
-  array.each do |index|
-    return "Hello, my name is #{index}."
-  end
+def badge_maker(name)
+  return "Hello, my name is #{name}."
 end
