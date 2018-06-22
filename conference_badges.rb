@@ -13,7 +13,7 @@ def assign_rooms(array)
   batch = []
   array.each do |index|
     batch << "Hello, #{index} You'll be assigned to room #{room}"
-    room +=
+    room += 1
   end
   return batch
 end
