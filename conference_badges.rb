@@ -18,7 +18,7 @@ def assign_rooms(array)
   return room_batch
 end
 def printer(array)
-  badge_batch = badge_batch_creator(array)
+  badge_batch = batch_badge_creator(array)
   badge_batch.each do |index|
     puts index
   end
